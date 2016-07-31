@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  transition-duration: 0.2s;
+}
+
+body {
+  background-color: #636367;
+  text-align: center;
+}
+
+.board {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  height: 35vmax;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 35vmax;
+}
+
+.cell {
+  border: 5px solid #9A9AA1;
+  border-radius: 50%;
+  flex-basis: 30%;
+  height: 30%;
+}
+
+.cell.free:hover {
+  opacity: .25;
+}
+
+.O {
+  background-color: #4F81BD;
+  border-color: #4F81BD;
+}
+
+.X {
+  background-color: #7EB24C;
+  border-color: #7EB24C;
+}
+
+.cell.won {
+  border-color: #F05834;
+}
+
+.reset {
+  background-color: #F05834;
+  border: 5px solid #F05834;
+  border-radius: 5%;
+  font-family: 'Consolas';
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+.reset:hover {
+  background-color: #F04018;
+  border-color: #F04018;
+}
+
+button:focus {
+  outline: 0;
+}
