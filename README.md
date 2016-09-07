@@ -2,6 +2,8 @@
 
 Tic Tac Toe using Redux and React with ES2015 syntax.
 
+![screenshot](./images/ttt_screenshot.png)
+
 ##Setup
 
 ```
